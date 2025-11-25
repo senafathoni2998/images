@@ -8,7 +8,7 @@
           "name": "Google Form",
           "type": "iframe",
           "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true",
-          "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e41",
+          "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
           "icon_mimetype": "image/png",
           "icon_url": "https://senafathoni2998.github.io/images/images/icons8-freezing-100.png",
           "lang": {
@@ -25,7 +25,7 @@
           "name": "Open Google",
           "type": "url",
           "url": "https://www.google.com/",
-          "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19a",
+          "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
           "icon_mimetype": "image/png",
           "icon_url": "https://senafathoni2998.github.io/images/images/icons8-frost-warning.png",
           "lang": {
