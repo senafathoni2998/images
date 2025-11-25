@@ -38,12 +38,12 @@
         }
       ],
       "product-logo" : {
-        "icon_checksum": "d41d8cd98f00b204e9800998ecf8427e",
+        "icon_checksum": "d41d8cd98f00b204e9800998ecf8429e",
         "icon_mimetype": "image/png",
-        "icon_url": "https://senafathoni2998.github.io/images/images/product.png"
+        "icon_url": "https://senafathoni2998.github.io/images/images/iAMT.png"
       },
       "company-logo" : {
-        "icon_checksum": "d41d8cd98f00b204e9800998ecf8427e",
+        "icon_checksum": "d41d8cd98f00b204e9800998ecf8420e",
         "icon_mimetype": "image/svg",
         "icon_url": "https://senafathoni2998.github.io/images/images/logo.svg"
       }
