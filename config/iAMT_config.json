@@ -1,6 +1,7 @@
 {
     "app-name": "ODI",
     "api-gateway-url": "https://odi.smart-leaders.net/odiapk2",
+    "config-refresh-interval-minutes": 5,
     "app-dynamic-menus": [
         {
           "slug": "google-form",
