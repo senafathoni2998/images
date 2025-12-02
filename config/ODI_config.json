@@ -12,6 +12,7 @@
   "companies": {
     "patra": {
       "company-name": "Patra Niaga",
+      "company-token": "ABCD-PATRA",
       "api-gateway-url": "https://odi.smart-leaders.net/odiapk2",
       "app-dynamic-menus": [
         {
@@ -54,6 +55,7 @@
     },
     "elnusa": {
       "company-name": "Elnusa",
+      "company-token": "WXYZ-ELNUSA",
       "api-gateway-url": "https://odi.smart-leaders.net/odiapk2",
       "app-dynamic-menus": [
         {
