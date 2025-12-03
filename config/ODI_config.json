@@ -1,12 +1,14 @@
 {
   "global": {
     "config-refresh-interval-minutes": 10,
-    "app-name": "ODI",
+    "app-name": "Online Delivery Info",
     "default-language": "id",
     "product-logo": {
       "icon_checksum": "d41d8cd98f00b204e9800998ecf84prd",
       "icon_mimetype": "image/png",
-      "icon_url": "https://senafathoni2998.github.io/images/images/product.png"
+      "icon_url": "https://senafathoni2998.github.io/images/images/product.png",
+      "icon-text": "ODI App",
+      "icon-description": "Online Delivery Info Application"
     }
   },
   "companies": {
@@ -45,12 +47,16 @@
       "product-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998ecf84abc",
         "icon_mimetype": "image/png",
-        "icon_url": "https://senafathoni2998.github.io/images/images/product.png"
+        "icon_url": "https://senafathoni2998.github.io/images/images/product.png",
+        "icon-text": "ODI App",
+        "icon-description": "Online Delivery Info Application"
       },
       "company-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998ecf8420e",
         "icon_mimetype": "image/svg+xml",
-        "icon_url": "https://senafathoni2998.github.io/images/images/logo.svg"
+        "icon_url": "https://senafathoni2998.github.io/images/images/logo.svg",
+        "icon-text": "Patra Niaga",
+        "icon-description": "Logo of Patra Niaga"
       }
     },
     "elnusa": {
@@ -88,12 +94,16 @@
       "product-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998ecelnabc",
         "icon_mimetype": "image/png",
-        "icon_url": "https://senafathoni2998.github.io/images/images/product.png"
+        "icon_url": "https://senafathoni2998.github.io/images/images/product.png",
+        "icon-text": "ODI App",
+        "icon-description": "Online Delivery Info Application"
       },
       "company-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998eccel20e",
         "icon_mimetype": "image/svg+xml",
-        "icon_url": "https://senafathoni2998.github.io/images/images/logo.svg"
+        "icon_url": "https://senafathoni2998.github.io/images/images/logo.svg",
+        "icon-text": "Elnusa",
+        "icon-description": "Logo of Elnusa"
       }
     }
   }
