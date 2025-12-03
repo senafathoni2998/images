@@ -62,7 +62,7 @@
     "elnusa": {
       "company-name": "Elnusa",
       "company-token": "WXYZ-ELNUSA",
-      "api-gateway-url": "https://odi.smart-leaders.net/odiapk2",
+      "api-gateway-url": "https://odi.smart-leaders.com/odiapk2",
       "app-dynamic-menus": [
         {
           "slug": "google-form",
@@ -101,7 +101,7 @@
       "company-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998eccel20e",
         "icon_mimetype": "image/svg+xml",
-        "icon_url": "https://senafathoni2998.github.io/images/images/logo.svg",
+        "icon_url": "https://senafathoni2998.github.io/images/images/epnlogo.svg",
         "icon-text": "Elnusa",
         "icon-description": "Logo of Elnusa"
       }
