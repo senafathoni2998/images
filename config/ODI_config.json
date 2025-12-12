@@ -4,7 +4,7 @@
     "company-name": "Patra Niaga",
     "app-name": "Online Delivery Info",
     "default-language": "id",
-    "company-token": "ABCD-PATRA",
+    "company-token": "ABC-PTRA",
     "api-gateway-url": "https://odi.smart-leaders.net/odiapk2",
     "app-dynamic-menus": [
       {
@@ -52,7 +52,7 @@
   "companies": {
     "patra": {
       "company-name": "Patra Niaga",
-      "company-token": "ABCD-PATRA",
+      "company-token": "ABC-PTRA",
       "api-gateway-url": "https://odi.smart-leaders.net/odiapk2",
       "app-dynamic-menus": [
              {
@@ -99,7 +99,7 @@
     },
     "elnusa": {
       "company-name": "Elnusa",
-      "company-token": "WXYZ-ELNUSA",
+      "company-token": "XYZ-LNSA",
       "api-gateway-url": "https://odi.smart-leaders.com/odiapk2",
       "app-dynamic-menus": [
       {
