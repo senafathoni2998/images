@@ -1,14 +1,52 @@
 {
   "global": {
     "config-refresh-interval-minutes": 10,
+    "company-name": "Patra Niaga",
     "app-name": "Online Delivery Info",
     "default-language": "id",
+    "company-token": "ABCD-PATRA",
+    "api-gateway-url": "https://odi.smart-leaders.net/odiapk2",
+    "app-dynamic-menus": [
+      {
+        "slug": "privacy-policy",
+        "name": "Privacy Policy",
+        "type": "iframe",
+        "url": "https://www.termsfeed.com/live/3aafccfd-7ffb-450f-8bee-0097586c3b30",
+        "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+        "icon_mimetype": "image/png",
+        "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/info-icon.png",
+        "lang": {
+          "en": { "name": "Privacy Policy" },
+          "id": { "name": "Kebijakan Privasi" }
+        }
+      },
+      {
+        "slug": "feedback-form",
+        "name": "Feedback Form",
+        "type": "url",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
+        "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
+        "icon_mimetype": "image/png",
+        "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/google-form-icon.png",
+        "lang": {
+          "en": { "name": "Feedback Form" },
+          "id": { "name": "Formulir Masukan" }
+        }
+      }
+    ],
     "product-logo": {
-      "icon_checksum": "d41d8cd98f00b204e9800998ecf84prd",
+      "icon_checksum": "d41d8cd98f00b204e9800998ecf84abc",
       "icon_mimetype": "image/png",
-      "icon_url": "https://senafathoni2998.github.io/images/images/product.png",
+      "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/product.png",
       "icon-text": "ODI App",
       "icon-description": "Online Delivery Info Application"
+    },
+    "company-logo": {
+      "icon_checksum": "d41d8cd98f00b204e9800998ecf8420e",
+      "icon_mimetype": "image/svg+xml",
+      "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/logo.svg",
+      "icon-text": "Patra Niaga",
+      "icon-description": "Logo of Patra Niaga"
     }
   },
   "companies": {
@@ -17,44 +55,44 @@
       "company-token": "ABCD-PATRA",
       "api-gateway-url": "https://odi.smart-leaders.net/odiapk2",
       "app-dynamic-menus": [
-        {
-          "slug": "google-form",
-          "name": "Google Form",
-          "type": "iframe",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
-          "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
-          "icon_mimetype": "image/png",
-          "icon_url": "https://senafathoni2998.github.io/images/images/icons8-freezing-100.png",
-          "lang": {
-            "en": { "name": "Google Form" },
-            "id": { "name": "Formulir Google" }
-          }
-        },
-        {
-          "slug": "open-google",
-          "name": "Open Google",
-          "type": "url",
-          "url": "https://www.google.com/",
-          "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
-          "icon_mimetype": "image/png",
-          "icon_url": "https://senafathoni2998.github.io/images/images/icons8-frost-warning.png",
-          "lang": {
-            "en": { "name": "Open Google" },
-            "id": { "name": "Buka Google" }
-          }
+             {
+        "slug": "privacy-policy",
+        "name": "Privacy Policy",
+        "type": "iframe",
+        "url": "https://www.termsfeed.com/live/3aafccfd-7ffb-450f-8bee-0097586c3b30",
+        "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+        "icon_mimetype": "image/png",
+        "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/info-icon.png",
+        "lang": {
+          "en": { "name": "Privacy Policy" },
+          "id": { "name": "Kebijakan Privasi" }
         }
+      },
+      {
+        "slug": "feedback-form",
+        "name": "Feedback Form",
+        "type": "url",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
+        "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
+        "icon_mimetype": "image/png",
+        "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/google-form-icon.png",
+        "lang": {
+          "en": { "name": "Feedback Form" },
+          "id": { "name": "Formulir Masukan" }
+        }
+      }
       ],
       "product-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998ecf84abc",
         "icon_mimetype": "image/png",
-        "icon_url": "https://senafathoni2998.github.io/images/images/product.png",
+        "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/product.png",
         "icon-text": "ODI App",
         "icon-description": "Online Delivery Info Application"
       },
       "company-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998ecf8420e",
         "icon_mimetype": "image/svg+xml",
-        "icon_url": "https://senafathoni2998.github.io/images/images/logo.svg",
+        "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/logo.svg",
         "icon-text": "Patra Niaga",
         "icon-description": "Logo of Patra Niaga"
       }
@@ -64,44 +102,44 @@
       "company-token": "WXYZ-ELNUSA",
       "api-gateway-url": "https://odi.smart-leaders.com/odiapk2",
       "app-dynamic-menus": [
-        {
-          "slug": "google-form",
-          "name": "Google Form",
-          "type": "iframe",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
-          "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d7eln3e42",
-          "icon_mimetype": "image/png",
-          "icon_url": "https://senafathoni2998.github.io/images/images/icons8-freezing-100.png",
-          "lang": {
-            "en": { "name": "Google Form" },
-            "id": { "name": "Formulir Google" }
-          }
-        },
-        {
-          "slug": "open-google",
-          "name": "Open Google",
-          "type": "url",
-          "url": "https://www.google.com/",
-          "icon_checksum": "b8557bd08e007155e9895caa7ddbfad186elnd19b",
-          "icon_mimetype": "image/png",
-          "icon_url": "https://senafathoni2998.github.io/images/images/icons8-frost-warning.png",
-          "lang": {
-            "en": { "name": "Open Google" },
-            "id": { "name": "Buka Google" }
-          }
+      {
+        "slug": "privacy-policy",
+        "name": "Privacy Policy",
+        "type": "iframe",
+        "url": "https://www.termsfeed.com/live/3aafccfd-7ffb-450f-8bee-0097586c3b30",
+        "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+        "icon_mimetype": "image/png",
+        "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/info-icon.png",
+        "lang": {
+          "en": { "name": "Privacy Policy" },
+          "id": { "name": "Kebijakan Privasi" }
         }
+      },
+      {
+        "slug": "feedback-form",
+        "name": "Feedback Form",
+        "type": "url",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
+        "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
+        "icon_mimetype": "image/png",
+        "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/google-form-icon.png",
+        "lang": {
+          "en": { "name": "Feedback Form" },
+          "id": { "name": "Formulir Masukan" }
+        }
+      }
       ],
       "product-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998ecelnabc",
         "icon_mimetype": "image/png",
-        "icon_url": "https://senafathoni2998.github.io/images/images/product.png",
+        "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/product.png",
         "icon-text": "ODI App",
         "icon-description": "Online Delivery Info Application"
       },
       "company-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998eccel20e",
         "icon_mimetype": "image/svg+xml",
-        "icon_url": "https://senafathoni2998.github.io/images/images/epnlogo.svg",
+        "icon_url": "https://pub-71fac27d01a9461fa2554ecbeede412f.r2.dev/logos/epnlogo.svg",
         "icon-text": "Elnusa",
         "icon-description": "Logo of Elnusa"
       }
