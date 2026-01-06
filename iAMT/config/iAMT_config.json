@@ -1,6 +1,6 @@
 {
   "global": {
-    "config-refresh-interval-minutes": 10,
+    "config-refresh-interval-minutes": 60,
     "company-name": "Patra Niaga",
     "app-name": "iAMT",
     "default-language": "id",
