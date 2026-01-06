@@ -4,7 +4,7 @@
     "company-name": "Patra Niaga",
     "app-name": "Online Delivery Info",
     "default-language": "id",
-    "company-token": "ABC-PTRA",
+    "company-token": "PTRA-NGA",
     "api-gateway-url": "https://odi.smart-leaders.net/odiapk2",
     "app-dynamic-menus": [
       {
@@ -18,19 +18,6 @@
         "lang": {
           "en": { "name": "Privacy Policy" },
           "id": { "name": "Kebijakan Privasi" }
-        }
-      },
-      {
-        "slug": "feedback-form",
-        "name": "Feedback Form",
-        "type": "url",
-        "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
-        "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
-        "icon_mimetype": "image/png",
-        "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/google-form-icon.png",
-        "lang": {
-          "en": { "name": "Feedback Form" },
-          "id": { "name": "Formulir Masukan" }
         }
       }
     ],
@@ -52,7 +39,7 @@
   "companies": {
     "patra": {
       "company-name": "Patra Niaga",
-      "company-token": "ABC-PTRA",
+      "company-token": "PTRA-NGA",
       "api-gateway-url": "https://odi.smart-leaders.net/odiapk2",
       "app-dynamic-menus": [
         {
@@ -66,19 +53,6 @@
           "lang": {
             "en": { "name": "Privacy Policy" },
             "id": { "name": "Kebijakan Privasi" }
-          }
-        },
-        {
-          "slug": "feedback-form",
-          "name": "Feedback Form",
-          "type": "url",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
-          "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
-          "icon_mimetype": "image/png",
-          "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/google-form-icon.png",
-          "lang": {
-            "en": { "name": "Feedback Form" },
-            "id": { "name": "Formulir Masukan" }
           }
         }
       ],
@@ -99,8 +73,8 @@
     },
     "elnusa": {
       "company-name": "Elnusa",
-      "company-token": "XYZ-LNSA",
-      "api-gateway-url": "https://odiepn.smart-leaders.com/odiapk2",
+      "company-token": "LNSA-PTN",
+      "api-gateway-url": "https://odi.smart-leaders.com/odiapk2",
       "app-dynamic-menus": [
         {
           "slug": "privacy-policy",
@@ -113,19 +87,6 @@
           "lang": {
             "en": { "name": "Privacy Policy" },
             "id": { "name": "Kebijakan Privasi" }
-          }
-        },
-        {
-          "slug": "feedback-form",
-          "name": "Feedback Form",
-          "type": "url",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
-          "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
-          "icon_mimetype": "image/png",
-          "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/google-form-icon.png",
-          "lang": {
-            "en": { "name": "Feedback Form" },
-            "id": { "name": "Formulir Masukan" }
           }
         }
       ],

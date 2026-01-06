@@ -2,49 +2,36 @@
   "global": {
     "config-refresh-interval-minutes": 10,
     "company-name": "Patra Niaga",
-    "app-name": "Online Delivery Info",
+    "app-name": "iAMT",
     "default-language": "id",
-    "company-token": "ABC-PTRA",
+    "company-token": "PTRA-NGA",
     "api-gateway-url": "https://odi.smart-leaders.net/driver",
     "app-dynamic-menus": [
       {
         "slug": "privacy-policy",
         "name": "Privacy Policy",
         "type": "iframe",
-        "url": "https://www.termsfeed.com/live/3aafccfd-7ffb-450f-8bee-0097586c3b30",
+        "url": "https://smart-leaders.com/privacypolicy/iAMT_en.html",
         "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
         "icon_mimetype": "image/png",
-        "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/info-icon.png",
+        "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/info-icon.png",
         "lang": {
           "en": { "name": "Privacy Policy" },
           "id": { "name": "Kebijakan Privasi" }
-        }
-      },
-      {
-        "slug": "feedback-form",
-        "name": "Feedback Form",
-        "type": "url",
-        "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
-        "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
-        "icon_mimetype": "image/png",
-        "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/google-form-icon.png",
-        "lang": {
-          "en": { "name": "Feedback Form" },
-          "id": { "name": "Formulir Masukan" }
         }
       }
     ],
     "product-logo": {
       "icon_checksum": "d41d8cd98f00b204e9800998ecf84iamt",
       "icon_mimetype": "image/png",
-      "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/iAMT.png",
+      "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/iAMT.png",
       "icon-text": "iAMT App",
       "icon-description": "iAMT Application"
     },
     "company-logo": {
       "icon_checksum": "d41d8cd98f00b204e9800998ecf84ptra",
       "icon_mimetype": "image/svg+xml",
-      "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/patralogo.svg",
+      "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/patralogo.svg",
       "icon-text": "Patra Niaga",
       "icon-description": "Logo of Patra Niaga"
     }
@@ -52,94 +39,68 @@
   "companies": {
     "patra": {
       "company-name": "Patra Niaga",
-      "company-token": "ABC-PTRA",
+      "company-token": "PTRA-NGA",
       "api-gateway-url": "https://odi.smart-leaders.net/driver",
       "app-dynamic-menus": [
         {
           "slug": "privacy-policy",
           "name": "Privacy Policy",
           "type": "iframe",
-          "url": "https://www.termsfeed.com/live/3aafccfd-7ffb-450f-8bee-0097586c3b30",
+          "url": "https://smart-leaders.com/privacypolicy/iAMT_en.html",
           "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
           "icon_mimetype": "image/png",
-          "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/info-icon.png",
+          "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/info-icon.png",
           "lang": {
             "en": { "name": "Privacy Policy" },
             "id": { "name": "Kebijakan Privasi" }
-          }
-        },
-        {
-          "slug": "feedback-form",
-          "name": "Feedback Form",
-          "type": "url",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
-          "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
-          "icon_mimetype": "image/png",
-          "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/google-form-icon.png",
-          "lang": {
-            "en": { "name": "Feedback Form" },
-            "id": { "name": "Formulir Masukan" }
           }
         }
       ],
       "product-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998ecf84iamt",
         "icon_mimetype": "image/png",
-        "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/iAMT.png",
+        "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/iAMT.png",
         "icon-text": "iAMT App",
         "icon-description": "iAMT Application"
       },
       "company-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998ecf84ptra",
         "icon_mimetype": "image/svg+xml",
-        "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/patralogo.svg",
+        "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/patralogo.svg",
         "icon-text": "Patra Niaga",
         "icon-description": "Logo of Patra Niaga"
       }
     },
     "elnusa": {
       "company-name": "Elnusa",
-      "company-token": "XYZ-LNSA",
+      "company-token": "LNSA-PTN",
       "api-gateway-url": "https://odiepn.smart-leaders.com/driver",
       "app-dynamic-menus": [
         {
           "slug": "privacy-policy",
           "name": "Privacy Policy",
           "type": "iframe",
-          "url": "https://www.termsfeed.com/live/3aafccfd-7ffb-450f-8bee-0097586c3b30",
+          "url": "https://smart-leaders.com/privacypolicy/iAMT_EPN_en.html",
           "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
           "icon_mimetype": "image/png",
-          "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/info-icon.png",
+          "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/info-icon.png",
           "lang": {
             "en": { "name": "Privacy Policy" },
             "id": { "name": "Kebijakan Privasi" }
-          }
-        },
-        {
-          "slug": "feedback-form",
-          "name": "Feedback Form",
-          "type": "url",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSczovjNyZnvdxQScVO2MnEQefsp6xWjjRpxHmobjYc_Rjw1KA/viewform?embedded=true&entry.2008513048=[user_id]&entry.1909680818=[app_name]",
-          "icon_checksum": "b8557bd08e007155e9895caa7ddbfad1863dd19b",
-          "icon_mimetype": "image/png",
-          "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/google-form-icon.png",
-          "lang": {
-            "en": { "name": "Feedback Form" },
-            "id": { "name": "Formulir Masukan" }
           }
         }
       ],
       "product-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998ecf84iamt",
         "icon_mimetype": "image/png",
-        "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/iAMT.png",
+        "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/iAMT.png",
         "icon-text": "iAMT App",
         "icon-description": "iAMT Application"
       },
       "company-logo": {
         "icon_checksum": "d41d8cd98f00b204e9800998eccelnusa",
         "icon_mimetype": "image/svg+xml",
-        "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/epnlogo.svg",
+        "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/epnlogo.svg",
         "icon-text": "Elnusa",
         "icon-description": "Logo of Elnusa"
       }
