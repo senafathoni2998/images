@@ -3,7 +3,7 @@
   "app-name": "Online Maintenance Info",
   "default-language": "id",
   "company-name": "Elnusa Petrofin",
-  "company-token": "ELPN-OMI",
+  "company-token": "ELPN-OMI1",
   "api-gateway-url": "https://odiepn.smart-leaders.com/omi2",
   "app-dynamic-menus": [
     {
