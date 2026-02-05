@@ -1,0 +1,37 @@
+{
+  "config-refresh-interval-minutes": 60,
+  "company-name": "Patra Niaga",
+  "app-name": "Online Maintenance Info",
+  "default-language": "id",
+  "company-token": "PTRA-OMI",
+  "api-gateway-url": "https://odi.smart-leaders.com/omi2",
+  "app-dynamic-menus": [
+    {
+      "slug": "privacy-policy",
+      "name": "Privacy Policy",
+      "type": "iframe",
+      "url": "https://smart-leaders.com/privacypolicy/OMI_en.html",
+      "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+      "icon_mimetype": "image/png",
+      "icon_url": "https://slassets.smart-leaders.com/omi-app/prod/icons/info-icon.png",
+      "lang": {
+        "en": { "name": "Privacy Policy" },
+        "id": { "name": "Kebijakan Privasi" }
+      }
+    }
+  ],
+  "product-logo": {
+    "icon_checksum": "d41d8cd98f00b204e9800998ecf84omi",
+    "icon_mimetype": "image/png",
+    "icon_url": "https://slassets.smart-leaders.com/omi-app/prod/icons/OMI.png",
+    "icon-text": "OMI App",
+    "icon-description": "Online Maintenance Info Application"
+  },
+  "company-logo": {
+    "icon_checksum": "d41d8cd98f00b204e9800998ecf84ptra",
+    "icon_mimetype": "image/svg+xml",
+    "icon_url": "https://slassets.smart-leaders.com/omi-app/prod/icons/patralogo.svg",
+    "icon-text": "Patra Niaga",
+    "icon-description": "Logo of Patra Niaga"
+  }
+}

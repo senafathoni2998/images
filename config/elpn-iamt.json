@@ -1,0 +1,37 @@
+{
+  "config-refresh-interval-minutes": 60,
+  "app-name": "iAMT",
+  "default-language": "id",
+  "company-name": "Elnusa",
+  "company-token": "ELPN-IAMT",
+  "api-gateway-url": "https://odiepn.smart-leaders.com/driver",
+  "app-dynamic-menus": [
+    {
+      "slug": "privacy-policy",
+      "name": "Privacy Policy",
+      "type": "iframe",
+      "url": "https://smart-leaders.com/privacypolicy/iAMT_EPN_en.html",
+      "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+      "icon_mimetype": "image/png",
+      "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/info-icon.png",
+      "lang": {
+        "en": { "name": "Privacy Policy" },
+        "id": { "name": "Kebijakan Privasi" }
+      }
+    }
+  ],
+  "product-logo": {
+    "icon_checksum": "d41d8cd98f00b204e9800998ecf84iamt",
+    "icon_mimetype": "image/png",
+    "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/iAMT.png",
+    "icon-text": "iAMT App",
+    "icon-description": "iAMT Application"
+  },
+  "company-logo": {
+    "icon_checksum": "d41d8cd98f00b204e9800998eccelnusa",
+    "icon_mimetype": "image/svg+xml",
+    "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/epnlogo.svg",
+    "icon-text": "Elnusa",
+    "icon-description": "Logo of Elnusa"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "config-refresh-interval-minutes": 60,
+  "app-name": "Online Delivery Info",
+  "default-language": "id",
+  "company-name": "Elnusa Petrofin",
+  "company-token": "ELPN-ODI",
+  "api-gateway-url": "https://odi.smart-leaders.com/odiapk2",
+  "app-dynamic-menus": [
+    {
+      "slug": "privacy-policy",
+      "name": "Privacy Policy",
+      "type": "iframe",
+      "url": "https://www.termsfeed.com/live/3aafccfd-7ffb-450f-8bee-0097586c3b30",
+      "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+      "icon_mimetype": "image/png",
+      "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/icons/info-icon.png",
+      "lang": {
+        "en": { "name": "Privacy Policy" },
+        "id": { "name": "Kebijakan Privasi" }
+      }
+    }
+  ],
+  "product-logo": {
+    "icon_checksum": "d41d8cd98f00b204e9800998ecf84odi",
+    "icon_mimetype": "image/png",
+    "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/icons/ODI.png",
+    "icon-text": "ODI App",
+    "icon-description": "Online Delivery Info Application"
+  },
+  "company-logo": {
+    "icon_checksum": "d41d8cd98f00b204e9800998eccelnusa",
+    "icon_mimetype": "image/svg+xml",
+    "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/icons/epnlogo.svg",
+    "icon-text": "Elnusa",
+    "icon-description": "Logo of Elnusa"
+  }
+}
