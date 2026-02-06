@@ -3,6 +3,7 @@
   "company-name": "Patra Niaga",
   "app-name": "iAMT",
   "default-language": "id",
+  "limit-app-version": "1.3.0",
   "company-token": "PTRA-IAMT",
   "api-gateway-url": "https://odi.smart-leaders.com/driver",
   "app-dynamic-menus": [

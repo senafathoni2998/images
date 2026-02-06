@@ -2,8 +2,9 @@
   "config-refresh-interval-minutes": 60,
   "company-name": "Pertamina LPG",
   "app-name": "iAMT LPG App",
+  "limit-app-version": "1.5.0",
   "default-language": "id",
-  "company-token": "IAMT-LPG",
+  "company-token": "LPG-IAMT",
   "api-gateway-url": "https://alpha.odi.smart-leaders.com/driverlpg",
   "app-dynamic-menus": [
     {

@@ -2,6 +2,7 @@
   "config-refresh-interval-minutes": 60,
   "app-name": "iAMT",
   "default-language": "id",
+  "limit-app-version": "1.3.0",
   "company-name": "Elnusa",
   "company-token": "ELPN-IAMT",
   "api-gateway-url": "https://odiepn.smart-leaders.com/driver",
