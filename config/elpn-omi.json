@@ -5,7 +5,7 @@
   "limit-app-version": "1.6.0",
   "company-name": "Elnusa Petrofin",
   "company-token": "ELPN-OMI",
-  "api-gateway-url": "https://odiepn.smart-leaders.com/omi2",
+  "api-gateway-url": "https://odiepn.smart-leaders.net/omi2",
   "app-dynamic-menus": [
     {
       "slug": "privacy-policy",
