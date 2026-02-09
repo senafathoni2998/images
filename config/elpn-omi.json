@@ -34,10 +34,10 @@
     "icon_url": "https://slassets.smart-leaders.com/omi-app/prod/icons/epnlogo.svg",
     "icon-text": "Elnusa",
     "icon-description": "Logo of Elnusa",
-    "color-tranparent": false
+    "color-transparent": false
   },
   "theme": {
-    "--sl-bg-home": "linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%)",
+    "--sl-bg-home": "radial-gradient(circle at bottom right,rgba(255, 235, 59, 0.9) 0%,rgba(255, 235, 59, 0.9) 40%,rgba(255, 235, 59, 0) 70%),linear-gradient(90deg,#ff1a1a 0%,#ff6a2a 45%,#ffeb3b 100%);",
     "--sl-bg-home-contrast": "#000000",
     "--sl-bg-home-start-contrast": "#000000",
     "--sl-bg-home-end-contrast": "#000000",
