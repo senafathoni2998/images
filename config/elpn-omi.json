@@ -37,11 +37,11 @@
     "color-transparent": false
   },
   "theme": {
-    "--sl-bg-home": "radial-gradient(circle at bottom right,rgba(255, 235, 59, 0.9) 0%,rgba(255, 235, 59, 0.9) 40%,rgba(255, 235, 59, 0) 70%),linear-gradient(90deg,#ff1a1a 0%,#ff6a2a 45%,#ffeb3b 100%);",
+    "--sl-bg-home": "radial-gradient(circle at bottom right,rgba(255, 235, 59, 0.9) 0%,rgba(255, 235, 59, 0.9) 40%,rgba(255, 235, 59, 0) 70%),linear-gradient(90deg,#ff1a1a 0%,#ff6a2a 45%,#ffeb3b 100%)",
     "--sl-bg-home-contrast": "#000000",
     "--sl-bg-home-start-contrast": "#000000",
     "--sl-bg-home-end-contrast": "#000000",
-    "--sl-bg-jumbotron": "radial-gradient(circle at top left,#fff700 0%,#ffe600 35%,rgba(255, 230, 0, 0) 60%),linear-gradient(135deg,#ff8fa3 0%,#ffb56b 45%,#ffc94a 70%,#ffd84d 100%);",
+    "--sl-bg-jumbotron": "radial-gradient(circle at top left,#fff700 0%,#ffe600 35%,rgba(255, 230, 0, 0) 60%),linear-gradient(135deg,#ff8fa3 0%,#ffb56b 45%,#ffc94a 70%,#ffd84d 100%)",
     "--sl-bg-jumbotron-contrast": "#ffffff",
     "--sl-bg-jumbotron-start-contrast": "#ffffff",
     "--sl-bg-jumbotron-end-contrast": "#ffffff",
