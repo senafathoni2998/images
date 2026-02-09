@@ -33,6 +33,7 @@
     "icon_mimetype": "image/svg+xml",
     "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/lpg/icons/pertamina-logo.svg",
     "icon-text": "Pertamina LPG",
-    "icon-description": "Logo of Pertamina LPG"
+    "icon-description": "Logo of Pertamina LPG",
+    "color-tranparent": true
   }
 }

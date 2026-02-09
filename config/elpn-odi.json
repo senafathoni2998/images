@@ -33,6 +33,7 @@
     "icon_mimetype": "image/svg+xml",
     "icon_url": "https://slassets.smart-leaders.com/odi-app/prod/icons/epnlogo.svg",
     "icon-text": "Elnusa",
-    "icon-description": "Logo of Elnusa"
+    "icon-description": "Logo of Elnusa",
+    "color-tranparent": false
   }
 }
