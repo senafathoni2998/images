@@ -41,7 +41,7 @@
     "--sl-bg-home-contrast": "#000000",
     "--sl-bg-home-start-contrast": "#000000",
     "--sl-bg-home-end-contrast": "#000000",
-    "--sl-bg-jumbotron": "linear-gradient(to right, #6a11cb 0%, #2575fc 100%)",
+    "--sl-bg-jumbotron": "radial-gradient(circle at top left,#fff700 0%,#ffe600 35%,rgba(255, 230, 0, 0) 60%),linear-gradient(135deg,#ff8fa3 0%,#ffb56b 45%,#ffc94a 70%,#ffd84d 100%);",
     "--sl-bg-jumbotron-contrast": "#ffffff",
     "--sl-bg-jumbotron-start-contrast": "#ffffff",
     "--sl-bg-jumbotron-end-contrast": "#ffffff",
