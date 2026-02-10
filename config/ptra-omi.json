@@ -1,8 +1,8 @@
 {
   "name": "PTRA-OMI",
   "app": {
-    "name": "Online Maintenance Info",
-    "slug": "ptpn-omi",
+    "name": "OMI",
+    "slug": "ptpn-omi1",
     "description": "Online Maintenance Info",
     "api-gateway-url": "https://odi.smart-leaders.com/omi2",
     "icon-gateway-url": "https://odi.smart-leaders.com/omi2/get_icon",
