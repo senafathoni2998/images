@@ -5,7 +5,7 @@
     "slug": "elpn-iamt",
     "description": "iAMT",
     "api-gateway-url": "https://odiepn.smart-leaders.net/driver",
-    "icon-gateway-url": "https://odi.smart-leaders.net/driver/get_icon",
+    "icon-gateway-url": "https://odiepn.smart-leaders.net/driver/get_icon",
     "icon-checksum": "d41d8cd98f00b204e9800998ecf84omi",
     "icon-mimetype": "image/png",
     "icon-url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/iAMT.png"
@@ -27,14 +27,14 @@
       "name": "Kebijakan Privasi",
       "type": "iframe",
       "sequence": 110,
-      "url": "https://smart-leaders.com/privacypolicy/OMI_id.html",
+      "url": "https://smart-leaders.com/privacypolicy/iAMT_EPN_id.html",
       "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
       "icon-mimetype": "image/png",
       "icon-url": "https://slassets.smart-leaders.com/omi-app/prod/icons/info-icon.png",
       "lang": {
         "en": {
           "name": "Privacy Policy",
-          "url": "https://smart-leaders.com/privacypolicy/OMI_en.html"
+          "url": "https://smart-leaders.com/privacypolicy/iAMT_EPN_en.html"
         }
       }
     }

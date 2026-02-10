@@ -5,7 +5,7 @@
     "slug": "elpn-odi1",
     "description": "Online Delivery Info",
     "api-gateway-url": "https://odi.smart-leaders.com/odiapk2",
-    "icon-gateway-url": "https://odi.smart-leaders.net/driver/get_icon",
+    "icon-gateway-url": "https://odi.smart-leaders.com/odiapk2/get_icon",
     "icon-checksum": "d41d8cd98f00b204e9800998ecf84odi",
     "icon-mimetype": "image/png",
     "icon-url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/ODI.png"

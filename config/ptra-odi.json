@@ -1,7 +1,7 @@
 {
   "name": "PTRA-ODI",
   "app": {
-    "name": "Online Delivery Info",
+    "name": "ODI",
     "slug": "ptpn-odi1",
     "description": "Online Delivery Info",
     "api-gateway-url": "https://odi.smart-leaders.com/odiapk2",
