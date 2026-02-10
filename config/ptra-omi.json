@@ -1,41 +1,43 @@
 {
-  "config-refresh-interval-minutes": 60,
-  "company-name": "Patra Niaga",
-  "app-name": "Online Maintenance Info",
-  "limit-app-version": "1.6.0",
-  "default-language": "id",
-  "company-token": "PTRA-OMI",
-  "api-gateway-url": "https://odi.smart-leaders.com/omi2",
+  "name": "PTRA-OMI",
+  "app": {
+    "name": "Online Maintenance Info",
+    "slug": "ptpn-omi",
+    "description": "Online Maintenance Info",
+    "api-gateway-url": "https://odi.smart-leaders.com/omi2",
+    "icon-gateway-url": "https://odi.smart-leaders.com/omi2/get_icon",
+    "icon-checksum": "d41d8cd98f00b204e9800998ecf84omi",
+    "icon-mimetype": "image/png",
+    "icon-url": "https://slassets.smart-leaders.com/omi-app/prod/icons/OMI.png"
+  },
+  "corporate": {
+    "name": "Patra Niaga",
+    "icon-checksum": "d41d8cd98f00b204e9800998ecf84ptra",
+    "icon-mimetype": "image/svg+xml",
+    "icon-url": "https://slassets.smart-leaders.com/omi-app/prod/icons/patralogo.svg"
+  },
+  "config": {
+    "default-language": "id",
+    "reload": 15
+  },
   "app-dynamic-menus": [
     {
       "slug": "privacy-policy",
-      "name": "Privacy Policy",
+      "name": "Kebijakan Privasi",
       "type": "iframe",
-      "url": "https://smart-leaders.com/privacypolicy/OMI_en.html",
-      "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
-      "icon_mimetype": "image/png",
-      "icon_url": "https://slassets.smart-leaders.com/omi-app/prod/icons/info-icon.png",
+      "sequence": 110,
+      "url": "https://smart-leaders.com/privacypolicy/OMI_id.html",
+      "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+      "icon-mimetype": "image/png",
+      "icon-url": "https://slassets.smart-leaders.com/omi-app/prod/icons/info-icon.png",
       "lang": {
-        "en": { "name": "Privacy Policy" },
-        "id": { "name": "Kebijakan Privasi" }
+        "id": {
+          "name": "Privacy Policy",
+          "url": "https://smart-leaders.com/privacypolicy/OMI_en.html"
+        }
       }
     }
   ],
-  "product-logo": {
-    "icon_checksum": "d41d8cd98f00b204e9800998ecf84omi",
-    "icon_mimetype": "image/png",
-    "icon_url": "https://slassets.smart-leaders.com/omi-app/prod/icons/OMI.png",
-    "icon-text": "OMI App",
-    "icon-description": "Online Maintenance Info Application"
-  },
-  "company-logo": {
-    "icon_checksum": "d41d8cd98f00b204e9800998ecf84ptra",
-    "icon_mimetype": "image/svg+xml",
-    "icon_url": "https://slassets.smart-leaders.com/omi-app/prod/icons/patralogo.svg",
-    "icon-text": "Patra Niaga",
-    "icon-description": "Logo of Patra Niaga",
-    "color-tranparent": true
-  },
   "theme": {
     "--sl-bg-home": "radial-gradient(circle at bottom right,rgba(255, 235, 59, 0.9) 0%,rgba(255, 235, 59, 0.9) 40%,rgba(255, 235, 59, 0) 70%),linear-gradient(90deg,#ff1a1a 0%,#ff6a2a 45%,#ffeb3b 100%)",
     "--sl-bg-home-contrast": "#000000",

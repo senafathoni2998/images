@@ -1,41 +1,43 @@
 {
-  "config-refresh-interval-minutes": 60,
-  "company-name": "Patra Niaga",
-  "app-name": "iAMT",
-  "default-language": "id",
-  "limit-app-version": "1.3.0",
-  "company-token": "PTRA-IAMT",
-  "api-gateway-url": "https://odi.smart-leaders.com/driver",
+  "name": "PTRA-IAMT",
+  "app": {
+    "name": "iAMT",
+    "slug": "ptpn-iamt",
+    "description": "iAMT",
+    "api-gateway-url": "https://odi.smart-leaders.com/driver",
+    "icon-gateway-url": "https://odi.smart-leaders.com/driver/get_icon",
+    "icon-checksum": "d41d8cd98f00b204e9800998ecf84iamt",
+    "icon-mimetype": "image/png",
+    "icon-url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/iAMT.png"
+  },
+  "corporate": {
+    "name": "Patra Niaga",
+    "icon-checksum": "d41d8cd98f00b204e9800998ecf84ptra",
+    "icon-mimetype": "image/svg+xml",
+    "icon-url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/patralogo.svg"
+  },
+  "config": {
+    "default-language": "id",
+    "reload": 15
+  },
   "app-dynamic-menus": [
     {
       "slug": "privacy-policy",
-      "name": "Privacy Policy",
+      "name": "Kebijakan Privasi",
       "type": "iframe",
-      "url": "https://smart-leaders.com/privacypolicy/iAMT_en.html",
-      "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
-      "icon_mimetype": "image/png",
-      "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/info-icon.png",
+      "sequence": 110,
+      "url": "https://smart-leaders.com/privacypolicy/iAMT_id.html",
+      "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+      "icon-mimetype": "image/png",
+      "icon-url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/info-icon.png",
       "lang": {
-        "en": { "name": "Privacy Policy" },
-        "id": { "name": "Kebijakan Privasi" }
+        "id": {
+          "name": "Privacy Policy",
+          "url": "https://smart-leaders.com/privacypolicy/iAMT_en.html"
+        }
       }
     }
   ],
-  "product-logo": {
-    "icon_checksum": "d41d8cd98f00b204e9800998ecf84iamt",
-    "icon_mimetype": "image/png",
-    "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/iAMT.png",
-    "icon-text": "iAMT App",
-    "icon-description": "iAMT Application"
-  },
-  "company-logo": {
-    "icon_checksum": "d41d8cd98f00b204e9800998ecf84ptra",
-    "icon_mimetype": "image/svg+xml",
-    "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/patralogo.svg",
-    "icon-text": "Patra Niaga",
-    "icon-description": "Logo of Patra Niaga",
-    "color-transparent": true
-  },
   "theme": {
     "--sl-bg-home": "linear-gradient(to right, #43e97b 0%, #38f9d7 100%)",
     "--sl-bg-home-contrast": "#000000",
