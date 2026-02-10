@@ -8,13 +8,13 @@
     "icon-gateway-url": "https://odi.smart-leaders.com/odiapk2/get_icon",
     "icon-checksum": "d41d8cd98f00b204e9800998ecf84odi",
     "icon-mimetype": "image/png",
-    "icon-url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/ODI.png"
+    "icon-url": "https://slassets.smart-leaders.com/odi-app/prod/icons/ODI.png"
   },
   "corporate": {
     "name": "Elnusa Petrofin",
     "icon-checksum": "d41d8cd98f00b204e9800998ecf84elpn",
     "icon-mimetype": "image/svg+xml",
-    "icon-url": "https://slassets.smart-leaders.com/omi-app/prod/icons/epnlogo.svg"
+    "icon-url": "https://slassets.smart-leaders.com/odi-app/prod/icons/epnlogo.svg"
   },
   "config": {
     "default-language": "id",
@@ -30,7 +30,7 @@
       "url": "https://www.termsfeed.com/live/3aafccfd-7ffb-450f-8bee-0097586c3b30",
       "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
       "icon-mimetype": "image/png",
-      "icon-url": "https://slassets.smart-leaders.com/omi-app/prod/icons/info-icon.png",
+      "icon-url": "https://slassets.smart-leaders.com/odi-app/prod/icons/info-icon.png",
       "lang": {
         "en": {
           "name": "Privacy Policy",

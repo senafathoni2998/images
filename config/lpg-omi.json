@@ -4,8 +4,8 @@
     "name": "OMI",
     "slug": "elpg-omi",
     "description": "OMI",
-    "api-gateway-url": "https://alpha.odi.smart-leaders.com/omilpg",
-    "icon-gateway-url": "https://alpha.odi.smart-leaders.com/omilpg/get_icon",
+    "api-gateway-url": "https://alpha.odi.smart-leaders.net/omilpg",
+    "icon-gateway-url": "https://alpha.odi.smart-leaders.net/omilpg/get_icon",
     "icon-checksum": "d41d8cd98f00b204e9800998ecf84omilpg",
     "icon-mimetype": "image/png",
     "icon-url": "https://slassets.smart-leaders.com/omi-app/prod/lpg/icons/OMI-LPG.png"
