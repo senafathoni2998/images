@@ -1,0 +1,39 @@
+{
+  "config-refresh-interval-minutes": 60,
+  "company-name": "Pertamina LPG",
+  "app-name": "iAMT LPG App",
+  "limit-app-version": "1.5.0",
+  "default-language": "id",
+  "company-token": "LPG-IAMT",
+  "api-gateway-url": "https://alpha.odi.smart-leaders.com/driverlpg",
+  "app-dynamic-menus": [
+    {
+      "slug": "privacy-policy",
+      "name": "Privacy Policy",
+      "type": "iframe",
+      "url": "https://smart-leaders.com/privacypolicy/iAMT_LPG_en.html",
+      "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+      "icon_mimetype": "image/png",
+      "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/lpg/icons/info-icon.png",
+      "lang": {
+        "en": { "name": "Privacy Policy" },
+        "id": { "name": "Kebijakan Privasi" }
+      }
+    }
+  ],
+  "product-logo": {
+    "icon_checksum": "d41d8cd98f00b204e9800998ecf84iamtlpg",
+    "icon_mimetype": "image/png",
+    "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/lpg/icons/iAMT-LPG.png",
+    "icon-text": "iAMT LPG App",
+    "icon-description": "iAMT LPG Application"
+  },
+  "company-logo": {
+    "icon_checksum": "d41d8cd98f00b204e9800998ecf84ptmn",
+    "icon_mimetype": "image/svg+xml",
+    "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/lpg/icons/pertamina-logo.svg",
+    "icon-text": "Pertamina LPG",
+    "icon-description": "Logo of Pertamina LPG",
+    "color-tranparent": true
+  }
+}
