@@ -18,7 +18,8 @@
   },
   "config": {
     "default-language": "id",
-    "reload": 15
+    "refresh-interval-value": 15,
+    "refresh-interval-unit": "days"
   },
   "app-dynamic-menus": [
     {
