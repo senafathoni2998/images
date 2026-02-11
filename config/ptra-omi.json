@@ -40,11 +40,11 @@
     }
   ],
   "theme": {
-    "--sl-bg-home": "radial-gradient(circle at bottom right,#fff700 0%,#ffeb3b 45%,rgba(255, 235, 59, 0) 70%),linear-gradient(90deg,#ff0000 0%,#ff4a1f 30%,#ff8c2a 55%,#ffb347 75%)",
+    "--sl-bg-home": "radial-gradient(circle at top left,#fff600 0%,#ffeb00 38%,rgba(255, 235, 0, 0) 62%),linear-gradient(135deg,#ff8fa3 0%,#ffb36b 40%,#ffc94a 70%,#ffd84d 100%)",
     "--sl-bg-home-contrast": "#ffffff",
     "--sl-bg-home-start-contrast": "#ffffff",
     "--sl-bg-home-end-contrast": "#000000",
-    "--sl-bg-jumbotron": "radial-gradient(circle at top left,#fff600 0%,#ffeb00 38%,rgba(255, 235, 0, 0) 62%),linear-gradient(135deg,#ff8fa3 0%,#ffb36b 40%,#ffc94a 70%,#ffd84d 100%)",
+    "--sl-bg-jumbotron": "radial-gradient(circle at bottom right,#fff700 0%,#ffeb3b 45%,rgba(255, 235, 59, 0) 70%),linear-gradient(90deg,#ff0000 0%,#ff4a1f 30%,#ff8c2a 55%,#ffb347 75%)",
     "--sl-bg-jumbotron-contrast": "#000000",
     "--sl-bg-jumbotron-start-contrast": "#000000",
     "--sl-bg-jumbotron-end-contrast": "#000000",
