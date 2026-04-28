@@ -1,109 +1,107 @@
 {
-  "global": {
-    "config-refresh-interval-minutes": 60,
-    "company-name": "Patra Niaga",
-    "app-name": "iAMT",
-    "default-language": "id",
-    "company-token": "PTRA-NGA",
-    "api-gateway-url": "https://odi.smart-leaders.net/driver",
-    "app-dynamic-menus": [
-      {
-        "slug": "privacy-policy",
-        "name": "Privacy Policy",
-        "type": "iframe",
-        "url": "https://smart-leaders.com/privacypolicy/iAMT_en.html",
-        "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
-        "icon_mimetype": "image/png",
-        "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/info-icon.png",
-        "lang": {
-          "en": { "name": "Privacy Policy" },
-          "id": { "name": "Kebijakan Privasi" }
-        }
-      }
-    ],
-    "product-logo": {
-      "icon_checksum": "d41d8cd98f00b204e9800998ecf84iamt",
-      "icon_mimetype": "image/png",
-      "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/iAMT.png",
-      "icon-text": "iAMT App",
-      "icon-description": "iAMT Application"
-    },
-    "company-logo": {
-      "icon_checksum": "d41d8cd98f00b204e9800998ecf84ptra",
-      "icon_mimetype": "image/svg+xml",
-      "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/patralogo.svg",
-      "icon-text": "Patra Niaga",
-      "icon-description": "Logo of Patra Niaga"
-    }
+  "name": "ptra-iamt",
+  "app": {
+    "name": "iAMT",
+    "slug": "ptpn-iamt",
+    "description": "iAMT",
+    "api-gateway-url": "https://36.66.79.235:8084/driver",
+    "icon-gateway-url": "https://36.66.79.235:8084/driver/get_icon",
+    "icon-checksum": "d41d8cd98f00b204e9800998ecf84iamt",
+    "icon-mimetype": "image/png",
+    "icon-url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/iAMT.png"
   },
-  "companies": {
-    "patra": {
-      "company-name": "Patra Niaga",
-      "company-token": "PTRA-NGA",
-      "api-gateway-url": "https://odi.smart-leaders.net/driver",
-      "app-dynamic-menus": [
-        {
-          "slug": "privacy-policy",
+  "corporate": {
+    "name": "Patra Niaga",
+    "icon-checksum": "d41d8cd98f00b204e9800998ecf84ptra",
+    "icon-mimetype": "image/svg+xml",
+    "icon-url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/patralogo.svg"
+  },
+  "config": {
+    "default-language": "id",
+    "refresh-interval-value": 15,
+    "refresh-interval-unit": "days"
+  },
+  "app-dynamic-menus": [
+    {
+      "slug": "privacy-policy",
+      "name": "Kebijakan Privasi",
+      "type": "iframe",
+      "sequence": 110,
+      "url": "https://smart-leaders.com/privacypolicy/iAMT_id.html",
+      "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+      "icon-mimetype": "image/png",
+      "icon-url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/info-icon.png",
+      "lang": {
+        "en": {
           "name": "Privacy Policy",
-          "type": "iframe",
-          "url": "https://smart-leaders.com/privacypolicy/iAMT_en.html",
-          "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
-          "icon_mimetype": "image/png",
-          "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/info-icon.png",
-          "lang": {
-            "en": { "name": "Privacy Policy" },
-            "id": { "name": "Kebijakan Privasi" }
-          }
+          "url": "https://smart-leaders.com/privacypolicy/iAMT_en.html"
         }
-      ],
-      "product-logo": {
-        "icon_checksum": "d41d8cd98f00b204e9800998ecf84iamt",
-        "icon_mimetype": "image/png",
-        "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/iAMT.png",
-        "icon-text": "iAMT App",
-        "icon-description": "iAMT Application"
-      },
-      "company-logo": {
-        "icon_checksum": "d41d8cd98f00b204e9800998ecf84ptra",
-        "icon_mimetype": "image/svg+xml",
-        "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/patralogo.svg",
-        "icon-text": "Patra Niaga",
-        "icon-description": "Logo of Patra Niaga"
-      }
-    },
-    "elnusa": {
-      "company-name": "Elnusa",
-      "company-token": "LNSA-PTN",
-      "api-gateway-url": "https://odiepn.smart-leaders.com/driver",
-      "app-dynamic-menus": [
-        {
-          "slug": "privacy-policy",
-          "name": "Privacy Policy",
-          "type": "iframe",
-          "url": "https://smart-leaders.com/privacypolicy/iAMT_EPN_en.html",
-          "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
-          "icon_mimetype": "image/png",
-          "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/info-icon.png",
-          "lang": {
-            "en": { "name": "Privacy Policy" },
-            "id": { "name": "Kebijakan Privasi" }
-          }
-        }
-      ],
-      "product-logo": {
-        "icon_checksum": "d41d8cd98f00b204e9800998ecf84iamt",
-        "icon_mimetype": "image/png",
-        "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/iAMT.png",
-        "icon-text": "iAMT App",
-        "icon-description": "iAMT Application"
-      },
-      "company-logo": {
-        "icon_checksum": "d41d8cd98f00b204e9800998eccelnusa",
-        "icon_mimetype": "image/svg+xml",
-        "icon_url": "https://slassets.smart-leaders.com/iamt-app/prod/epnlogo.svg",
-        "icon-text": "Elnusa",
-        "icon-description": "Logo of Elnusa"
       }
     }
+  ],
+  "theme": {
+    "--sl-bg-home": "linear-gradient(135deg,rgba(173, 255, 47, 0) 40%,#c8f04a 55%,#f6ff00 100%),linear-gradient(90deg,#b6c6ff 0%,#7cc9ff 25%,#55d9f0 50%,#6fe3c1 75%,#d9f25a 100%)",
+    "--sl-bg-home-contrast": "#000000",
+    "--sl-bg-home-start-contrast": "#000000",
+    "--sl-bg-home-end-contrast": "#000000",
+    "--sl-bg-jumbotron": "radial-gradient(circle at top left,#c9ef5a 0%,#bfe88a 35%,rgba(191, 232, 138, 0) 65%),linear-gradient(110deg,#5fe3e1 0%,#6fe7e7 35%,#63d4f2 65%,#7bb6f7 100%)",
+    "--sl-bg-jumbotron-contrast": "#000000",
+    "--sl-bg-jumbotron-start-contrast": "#000000",
+    "--sl-bg-jumbotron-end-contrast": "#000000",
+    "--ion-color-primary": "#3880ff",
+    "--ion-color-primary-rgb": "56,128,255",
+    "--ion-color-primary-contrast": "#ffffff",
+    "--ion-color-primary-contrast-rgb": "255,255,255",
+    "--ion-color-primary-shade": "#3171e0",
+    "--ion-color-primary-tint": "#4c8dff",
+    "--ion-color-secondary": "#3dc2ff",
+    "--ion-color-secondary-rgb": "61,194,255",
+    "--ion-color-secondary-contrast": "#ffffff",
+    "--ion-color-secondary-contrast-rgb": "255,255,255",
+    "--ion-color-secondary-shade": "#36abe0",
+    "--ion-color-secondary-tint": "#50c8ff",
+    "--ion-color-tertiary": "#5260ff",
+    "--ion-color-tertiary-rgb": "82,96,255",
+    "--ion-color-tertiary-contrast": "#ffffff",
+    "--ion-color-tertiary-contrast-rgb": "255,255,255",
+    "--ion-color-tertiary-shade": "#4854e0",
+    "--ion-color-tertiary-tint": "#6370ff",
+    "--ion-color-success": "#2dd36f",
+    "--ion-color-success-rgb": "45,211,111",
+    "--ion-color-success-contrast": "#ffffff",
+    "--ion-color-success-contrast-rgb": "255,255,255",
+    "--ion-color-success-shade": "#28ba62",
+    "--ion-color-success-tint": "#42d77d",
+    "--ion-color-warning": "#ffc409",
+    "--ion-color-warning-rgb": "255,196,9",
+    "--ion-color-warning-contrast": "#000000",
+    "--ion-color-warning-contrast-rgb": "0,0,0",
+    "--ion-color-warning-shade": "#e0ac08",
+    "--ion-color-warning-tint": "#ffca22",
+    "--ion-color-danger": "#eb445a",
+    "--ion-color-danger-rgb": "235,68,90",
+    "--ion-color-danger-contrast": "#ffffff",
+    "--ion-color-danger-contrast-rgb": "255,255,255",
+    "--ion-color-danger-shade": "#cf3c4f",
+    "--ion-color-danger-tint": "#ed576b",
+    "--ion-color-dark": "#b5bfd4",
+    "--ion-color-dark-rgb": "34,36,40",
+    "--ion-color-dark-contrast": "#000000",
+    "--ion-color-dark-contrast-rgb": "255,255,255",
+    "--ion-color-dark-shade": "#b8c4d4",
+    "--ion-color-dark-tint": "#aeb5c2",
+    "--ion-color-medium": "#92949c",
+    "--ion-color-medium-rgb": "146,148,156",
+    "--ion-color-medium-contrast": "#ffffff",
+    "--ion-color-medium-contrast-rgb": "255,255,255",
+    "--ion-color-medium-shade": "#808289",
+    "--ion-color-medium-tint": "#9d9fa6",
+    "--ion-color-light": "#f4f5f8",
+    "--ion-color-light-rgb": "244,245,248",
+    "--ion-color-light-contrast": "#000000",
+    "--ion-color-light-contrast-rgb": "0,0,0",
+    "--ion-color-light-shade": "#d7d8da",
+    "--ion-color-light-tint": "#f5f6f9",
+    "--default-color": "#5f6368"
   }
 }
