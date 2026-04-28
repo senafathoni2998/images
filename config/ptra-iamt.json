@@ -4,8 +4,8 @@
     "name": "iAMT",
     "slug": "ptpn-iamt",
     "description": "iAMT",
-    "api-gateway-url": "https://odi.smart-leaders.com/driver",
-    "icon-gateway-url": "https://odi.smart-leaders.com/driver/get_icon",
+    "api-gateway-url": "https://36.66.79.235:8084/driver",
+    "icon-gateway-url": "https://36.66.79.235:8084/driver/get_icon",
     "icon-checksum": "d41d8cd98f00b204e9800998ecf84iamt",
     "icon-mimetype": "image/png",
     "icon-url": "https://slassets.smart-leaders.com/iamt-app/prod/icons/iAMT.png"
