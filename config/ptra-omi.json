@@ -43,8 +43,8 @@
         "name": "Daily Inspeksi Mingguan",
         "type": "survey",
         "url": {
-          "get": "https://odi.smart-leaders.com/omi2/get_survey_daily_inspection",
-          "send": "https://odi.smart-leaders.com/omi2/send_survey_daily_inspection"
+          "get": "http://36.66.79.235:4800/omi2/get_survey_daily_inspection",
+          "send": "http://36.66.79.235:4800/omi2/send_survey_daily_inspection"
         },
         "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
         "icon_mimetype": "image/png",
