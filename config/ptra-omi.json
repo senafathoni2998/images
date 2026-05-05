@@ -37,7 +37,24 @@
           "url": "https://smart-leaders.com/privacypolicy/OMI_en.html"
         }
       }
-    }
+    },
+    {
+        "slug": "daily-inspection-weekly",
+        "name": "Daily Inspeksi Mingguan",
+        "type": "survey",
+        "url": {
+          "get": "https://odi.smart-leaders.com/omi2/get_survey_daily_inspection",
+          "send": "https://odi.smart-leaders.com/omi2/send_survey_daily_inspection"
+        },
+        "icon_checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+        "icon_mimetype": "image/png",
+        "icon_url": "https://slassets.smart-leaders.com/omi-app/prod/info-icon.png",
+        "lang": {
+          "en": {
+          "name": "Daily Inspection Weekly"
+        }
+        }
+      }
   ],
   "theme": {
     "--sl-bg-home": "radial-gradient(circle at top left,#fff600 0%,#ffeb00 38%,rgba(255, 235, 0, 0) 62%),linear-gradient(135deg,#ff8fa3 0%,#ffb36b 40%,#ffc94a 70%,#ffd84d 100%)",
