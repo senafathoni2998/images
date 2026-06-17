@@ -42,6 +42,7 @@
         "slug": "weekly-inspection",
         "name": "Inspeksi Mingguan",
         "access_right": "f09",
+        "in_schedule": true,
         "type": "survey",
         "url": {
           "get": "http://36.66.79.235:4800/omi2/get_survey_weekly_inspection",
@@ -60,6 +61,7 @@
           "slug": "monthly-inspection",
           "name": "Inspeksi Bulanan",
           "type": "survey",
+          "in_schedule": true,
           "access_right": "f10",
           "url": {
             "get": "http://36.66.79.235:4800/omi2/get_survey_monthly_inspection",
