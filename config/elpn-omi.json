@@ -22,6 +22,54 @@
     "refresh-interval-unit": "days"
   },
   "app-dynamic-menus": [
+     {
+        "slug": "weekly-inspection",
+        "name": "Weekly Inspection",
+        "access_right": "f09",
+        "in_schedule": true,
+        "type": "survey",
+        "near-expiry-value": 22,
+        "near-expiry-unit": "hour", 
+        "url": {
+          "get": "http://36.66.79.235:4800/omi2/get_survey_weekly_inspection",
+          "send": "http://36.66.79.235:4800/omi2/send_survey_weekly_inspection"
+        },
+        "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+        "icon-mimetype": "image/png",
+        "icon-url": "https://senafathoni2998.github.io/images/OMI/icons/weekly-survey.png",
+        "lang": {
+            "en": {
+            "name": "Weekly Inspection"
+          }
+        },
+        "short_name": "Weekly Insp.",
+        "valid_value": 7,
+        "valid_unit": "day"
+      },
+      {
+          "slug": "monthly-inspection",
+          "name": "Monthly Inspection",
+          "type": "survey",
+          "in_schedule": true,
+          "access_right": "f10",
+          "url": {
+            "get": "http://36.66.79.235:4800/omi2/get_survey_monthly_inspection",
+            "send": "http://36.66.79.235:4800/omi2/send_survey_monthly_inspection"
+          },
+          "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
+          "icon-mimetype": "image/png",
+          "icon-url": "https://senafathoni2998.github.io/images/OMI/icons/monthly-survey.png",
+          "near-expiry-value": 22,
+          "near-expiry-unit": "hour", 
+          "lang": {
+              "en": {
+              "name": "Monthly Inspection"
+            }
+          },
+          "short_name": "Monthly Insp.",
+          "valid_value": 1,
+          "valid_unit": "month"
+        },
     {
       "slug": "privacy-policy",
       "name": "Kebijakan Privasi",
