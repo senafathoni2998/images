@@ -32,7 +32,7 @@
         "near-expiry-unit": "hour", 
         "url": {
           "get": {"endpoint": "http://149.129.215.75:8062/omi2/survey_weekly_inspection", "method": "GET"},
-          "send": {"endpoint": "http://149.129.215.75:8062/omi2/send_survey_weekly_inspection"}
+          "send": {"endpoint": "http://149.129.215.75:8062/omi2/survey_weekly_inspection"}
         },
         "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
         "icon-mimetype": "image/png",
@@ -54,7 +54,7 @@
           "access_right": "f10",
           "url": {
             "get": {"endpoint": "http://149.129.215.75:8062/omi2/survey_monthly_inspection", "method": "GET"},
-            "send": {"endpoint": "http://149.129.215.75:8062/omi2/send_survey_monthly_inspection"}
+            "send": {"endpoint": "http://149.129.215.75:8062/omi2/survey_monthly_inspection"}
           },
           "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
           "icon-mimetype": "image/png",
