@@ -103,5 +103,15 @@
     "--ion-color-light-shade": "#d7d8da",
     "--ion-color-light-tint": "#f5f6f9",
     "--default-color": "#5f6368"
+  },
+  "push": {
+    "token_delivery": "off",
+    "token_endpoint": "/api/v1/devices",
+    "topics": [
+      "[app]-all",
+      "[app]-company-[company_id]",
+      "[app]-user-[user_id]",
+      "[app]-role-[group_apps]"
+    ]
   }
 }
