@@ -1,11 +1,12 @@
 {
+  "config-version": "101.0.0",
   "name": "lpg-omi",
   "app": {
     "name": "OMI",
     "slug": "elpg-omi",
     "description": "OMI",
-    "api-gateway-url": "https://alpha.odi.smart-leaders.net/omilpg",
-    "icon-gateway-url": "https://alpha.odi.smart-leaders.net/omilpg/get_icon",
+    "api-gateway-url": "https://v6bwt2xc-1115.asse.devtunnels.ms/omilpg",
+    "icon-gateway-url": "https://v6bwt2xc-1115.asse.devtunnels.ms/omilpg/get_icon",
     "icon-checksum": "d41d8cd98f00b204e9800998ecf84omilpg",
     "icon-mimetype": "image/png",
     "icon-url": "https://slassets.smart-leaders.com/omi-app/prod/lpg/icons/OMI-LPG.png"
@@ -21,7 +22,76 @@
     "refresh-interval-value": 15,
     "refresh-interval-unit": "days"
   },
+  "outdated-survey-resend-enabled": false,
   "app-dynamic-menus": [
+    {
+      "slug": "weekly-inspection",
+      "type": "survey",
+      "sequence": 10,
+      "name": "Weekly Inspection",
+      "lang": {
+        "en": {
+          "name": "Weekly Inspection"
+        },
+        "id": {
+          "name": "Weekly Inspection"
+        }
+      },
+      "short_name": "WI",
+      "in_schedule": true,
+      "last-survey-field": "last_survey_wi",
+      "remaining-time-field": "remaining_time_wi",
+      "action-name-field": "action_name_wi",
+      "valid_value": 1,
+      "valid_unit": "week",
+      "url": {
+        "get": {
+          "endpoint": "/get_survey_weekly_inspection",
+          "method": "get"
+        },
+        "send": {
+          "endpoint": "/create_survey",
+          "method": "post"
+        }
+      },
+      "icon-checksum": "local-weekly-inspection-v1",
+      "icon-mimetype": "image/png",
+      "icon-url": "/assets/landing/weekly-inspection-100.png"
+    },
+    {
+      "slug": "monthly-inspection",
+      "type": "survey",
+      "sequence": 20,
+      "name": "Monthly Inspection",
+      "lang": {
+        "en": {
+          "name": "Monthly Inspection"
+        },
+        "id": {
+          "name": "Monthly Inspection"
+        }
+      },
+      "short_name": "MI",
+      "in_schedule": true,
+      "last-survey-field": "last_survey_mi",
+      "remaining-time-field": "remaining_time_mi",
+      "action-name-field": "action_name_mi",
+      "valid_value": 1,
+      "valid_unit": "month",
+      "url": {
+        "get": {
+          "endpoint": "/get_survey_monthly_inspection",
+          "method": "get"
+        },
+        "send": {
+          "endpoint": "/create_survey",
+          "method": "post"
+        }
+      },
+      "icon-checksum": "local-monthly-inspection-v1",
+      "icon-mimetype": "image/png",
+      "icon-url": "/assets/landing/monthly-inspection-100.png"
+    },
     {
       "slug": "privacy-policy",
       "name": "Kebijakan Privasi",
@@ -39,6 +109,22 @@
       }
     }
   ],
+  "menu-lock": {
+    "weekly-inspection": {
+      "locked": false,
+      "message": {
+        "id": "Menu ini dapat diakses pada 12 Oktober 2026",
+        "en": "This menu will be available on 12 October 2026"
+      }
+    },
+    "monthly-inspection": {
+      "locked": false,
+      "message": {
+        "id": "Menu ini dapat diakses pada 12 Oktober 2026",
+        "en": "This menu will be available on 12 October 2026"
+      }
+    }
+  },
   "theme": {
     "--sl-bg-home": "radial-gradient(circle at 100% 100%,#fff200 0%,#ffe14a 35%,#ffc83d 55%,rgba(255, 200, 61, 0) 72%),linear-gradient(90deg,#ff0000 0%,#ff3b1f 25%,#ff7a2f 55%,#ffb347 75%,#ffd84d 100%)",
     "--sl-bg-home-contrast": "#ffffff",
@@ -108,5 +194,9 @@
     "--ion-color-orange-contrast-rgb": "255,255,255",
     "--ion-color-orange-shade": "#c95400",
     "--ion-color-orange-tint": "#e76f1a"
+  },
+  "push": {
+    "token_delivery": "off",
+    "topics": []
   }
 }
