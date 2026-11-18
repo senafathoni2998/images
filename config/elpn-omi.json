@@ -1,11 +1,12 @@
 {
+  "config-version": "0.1.0",
   "name": "elpn-omi",
   "app": {
     "name": "OMI",
     "slug": "elpn-omi1",
     "description": "Online Maintenance Info",
-    "api-gateway-url": "https://odiepn.smart-leaders.net/omi2",
-    "icon-gateway-url": "https://odiepn.smart-leaders.net/omi2/get_icon",
+    "api-gateway-url": "https://odiepn.smart-leaders.com/omi2",
+    "icon-gateway-url": "https://odiepn.smart-leaders.com/omi2/get_icon",
     "icon-checksum": "d41d8cd98f00b204e9800998ecf84omi",
     "icon-mimetype": "image/png",
     "icon-url": "https://slassets.smart-leaders.com/omi-app/prod/icons/OMI.png"
@@ -21,55 +22,79 @@
     "refresh-interval-value": 15,
     "refresh-interval-unit": "days"
   },
+  "survey-icon-url": {
+    "daily-inspection": "assets/img/survey-daily-white.svg",
+    "weekly-inspection": "assets/img/survey-weekly-white.svg",
+    "monthly-inspection": "assets/img/survey-monthly-white.svg",
+    "yearly-inspection": "assets/img/survey-yearly-white.svg"
+  },
+  "survey-chip-near-expiry-value": 24,
+  "survey-chip-near-expiry-unit": "hour",
   "app-dynamic-menus": [
-     {
-        "slug": "weekly-inspection",
-        "name": "Weekly Inspection",
-        "access_right": "f09",
-        "in_schedule": true,
-        "type": "survey",
-        "near-expiry-value": 22,
-        "near-expiry-unit": "hour", 
-        "url": {
-          "get": {"endpoint": "/survey_weekly_inspection", "method": "GET"},
-          "send": {"endpoint": "/survey_weekly_inspection"}
-        },
-        "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
-        "icon-mimetype": "image/png",
-        "icon-url": "https://senafathoni2998.github.io/images/OMI/icons/weekly-survey.png",
-        "lang": {
-            "en": {
-            "name": "Weekly Inspection"
-          }
-        },
-        "short_name": "WI",
-        "valid_value": 7,
-        "valid_unit": "day"
+    {
+      "slug": "weekly-inspection",
+      "sequence": 10,
+      "name": "Weekly Inspection",
+      "access_right": "f09",
+      "in_schedule": true,
+      "type": "survey",
+      "near-expiry-value": 14,
+      "near-expiry-unit": "day",
+      "url": {
+        "get": { "endpoint": "/survey_weekly_inspection", "method": "get" },
+        "send": { "endpoint": "/survey_weekly_inspection", "method": "post" }
       },
-      {
-          "slug": "monthly-inspection",
-          "name": "Monthly Inspection",
-          "type": "survey",
-          "in_schedule": true,
-          "access_right": "f10",
-          "url": {
-            "get": {"endpoint": "/survey_monthly_inspection", "method": "GET"},
-            "send": {"endpoint": "/survey_monthly_inspection"}
-          },
-          "icon-checksum": "ff6acf7de97061e24fcf58cc95730f0d735e3e42",
-          "icon-mimetype": "image/png",
-          "icon-url": "https://senafathoni2998.github.io/images/OMI/icons/monthly-survey.png",
-          "near-expiry-value": 22,
-          "near-expiry-unit": "hour", 
-          "lang": {
-              "en": {
-              "name": "Monthly Inspection"
-            }
-          },
-          "short_name": "MI",
-          "valid_value": 1,
-          "valid_unit": "month"
-        },
+      "icon-checksum": "local-weekly-inspection-v1",
+      "icon-mimetype": "image/png",
+      "icon-url": "/assets/landing/weekly-inspection-100.png",
+      "lang": { "en": { "name": "Weekly Inspection" } },
+      "short_name": "WI",
+      "valid_value": 7,
+      "valid_unit": "day"
+    },
+    {
+      "slug": "monthly-inspection",
+      "sequence": 20,
+      "name": "Monthly Inspection",
+      "type": "survey",
+      "in_schedule": true,
+      "access_right": "f10",
+      "url": {
+        "get": { "endpoint": "/survey_monthly_inspection", "method": "get" },
+        "send": { "endpoint": "/survey_monthly_inspection", "method": "post" }
+      },
+      "icon-checksum": "local-monthly-inspection-v1",
+      "icon-mimetype": "image/png",
+      "icon-url": "/assets/landing/monthly-inspection-100.png",
+      "near-expiry-value": 2,
+      "near-expiry-unit": "month",
+      "lang": { "en": { "name": "Monthly Inspection" } },
+      "short_name": "MI",
+      "valid_value": 1,
+      "valid_unit": "month"
+    },
+        {
+      "slug": "yearly-inspection",
+      "sequence": 30,
+      "name": "Yearly Inspection",
+      "short_name": "YI",
+      "type": "survey",
+      "in_schedule": true,
+      "access_right": "f12",
+      "feature_code": "f12",
+      "url": {
+        "get": { "endpoint": "/survey_yearly_inspection", "method": "get" },
+        "send": { "endpoint": "/survey_yearly_inspection", "method": "post" }
+      },
+      "valid_value": 1,
+      "valid_unit": "year",
+      "near-expiry-value": 2,
+      "near-expiry-unit": "year",
+      "lang": { "en": { "name": "Yearly Inspection" } },
+      "icon-url": "/assets/landing/yearly-inspection-100.png",
+      "icon-checksum": "local-yearly-inspection-v1",
+      "icon-mimetype": "image/png"
+    },
     {
       "slug": "privacy-policy",
       "name": "Kebijakan Privasi",
@@ -85,7 +110,7 @@
           "url": "https://smart-leaders.com/privacypolicy/OMI_EPN_en.html"
         }
       }
-    }
+    },
   ],
   "theme": {
     "--sl-bg-home": "radial-gradient(circle at top right,#fff700 0%,#ffe600 45%,rgba(255, 230, 0, 0) 70%),linear-gradient(90deg,#fff1f1 0%,#ffb3b3 35%,#ff5a5a 55%,#ff8c1a 75%)",
